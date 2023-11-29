@@ -62,7 +62,7 @@ $pdf->Cell(0, 10, 'Training Center');
 $pdf->Cell(0, 10, 'STATISTICS REPORT', 0, 0, 'R');
 $pdf->Ln();
 $pdf->SetFont('Arial', '', 12);
-$pdf->Cell(0, 3, 'Printed in ' . date("Y-m-d") . ' at ' . date("H:i:s") . ' by Yehezkiel Wiradhika');
+$pdf->Cell(0, 3, 'Printed on ' . date("d-m-Y") . ' at ' . date("H:i:s") . ' by Yehezkiel Wiradhika');
 $pdf->Ln(7);
 // Add Filters
 $pdf->SetFont('Arial', '', 14);
